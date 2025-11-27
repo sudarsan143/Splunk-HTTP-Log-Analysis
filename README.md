@@ -1,6 +1,6 @@
 # 🛡️ Splunk HTTP Log Analysis
 
-A hands-on SOC mini project using Splunk to analyze Zeek-style HTTP logs. This lab demonstrates core blue-team skills such as log ingestion, HTTP traffic analysis, detection of server/client errors, identifying suspicious User-Agents, analyzing large file transfers, and detecting malicious URI access attempts. Ideal for developing practical SOC investigation and detection engineering skills.
+A hands-on SOC mini project using Splunk to analyze **Zeek-style HTTP logs**. This lab demonstrates core blue-team skills such as log ingestion, HTTP traffic analysis, detection of server/client errors, identifying suspicious User-Agents, analyzing large file transfers, and detecting malicious URI access attempts. Ideal for developing practical SOC investigation and detection engineering skills.
 ---
 
 ## 🎯 Objective  
@@ -88,20 +88,17 @@ index=main sourcetype="zeek:http" uri IN ("/admin","/shell.php","/etc/passwd")
 
 ## 🏁 Conclusion  
 This project enabled me to deepen my SOC analysis skills by:  
-- Performing comprehensive SSH authentication monitoring using Splunk 
-- Identifying brute-force patterns, anomalous login behaviors, and suspicious access attempts
-- Correlating successful logins with prior failures to uncover potential account compromise
-- Profiling attacker IPs through geo-enrichment and interpreting trends with dashboards and time-based visualizations 
+- Performing comprehensive HTTP traffic monitoring and log analysis using Splunk 
+- Detecting error patterns, including high-volume client (4xx) and server (5xx) failures that may indicate attacks or service issues
+- Identifying suspicious User-Agents commonly associated with automated scanners, bots, and exploitation tools
+- Detecting high-risk URI access attempts such as /admin, /etc/passwd, and web shell probes
+- Analyzing large file transfers to uncover abnormal data movement or potential exfiltration behavior
 
 ---
----
-
-## 🏁 Final Thoughts  
-- This project strengthened my practical SOC workflow by simulating real-world SSH attack scenarios and investigating them through Splunk. From detecting brute-force attempts to analyzing authenticated sessions, the end-to-end process reinforced how SIEM data can reveal early signs of compromise. The dashboards, alerts, and correlation logic built during this project provide a strong foundation for continuous monitoring and rapid incident response in an enterprise environment.
 
 
 ---
 
 ## 🔖 Tags  
-`#Splunk` `#CyberSecurity` `#SOC` `#SIEM` `#SSHLogs` `#ThreatDetection` `#BlueTeam` `#HandsOnLearning`
+`#Splunk` `#CyberSecurity` `#SOC` `#SIEM` `#HTTPLogs` `#ThreatDetection` `#BlueTeam` `#HandsOnLearning`
 
