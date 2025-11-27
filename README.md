@@ -1,6 +1,6 @@
 # 🛡️ Splunk HTTP Log Analysis
 
-A hands-on SOC mini project using Splunk to analyze **Zeek-style HTTP logs**. This lab demonstrates core blue-team skills such as log ingestion, HTTP traffic analysis, detection of server/client errors, identifying suspicious User-Agents, analyzing large file transfers, and detecting malicious URI access attempts. Ideal for developing practical SOC investigation and detection engineering skills.
+A hands-on SOC mini project using Splunk to analyze **Zeek-style HTTP logs**. This lab demonstrates core blue-team skills such as log ingestion, HTTP traffic analysis, detection of server/client errors, identifying suspicious User-Agents, analyzing large file transfers, and detecting malicious URI access attempts. Ideal for developing practical SOC investigation and detection skills.
 ---
 
 ## 🎯 Objective  
