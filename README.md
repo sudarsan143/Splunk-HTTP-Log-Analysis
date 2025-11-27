@@ -74,13 +74,11 @@ index=main sourcetype="zeek:http" uri IN ("/admin","/shell.php","/etc/passwd")
 
 ## 🖼 Dashboard Screenshots 
 
-![image alt](https://github.com/sudarsan143/Splunk-SSH-Log-Analysis/blob/c64cc500665d9b762b053bc59e815af4a5776b2c/Analyze%20Failed%20Login%20Attempts.png)
-![image alt](https://github.com/sudarsan143/Splunk-SSH-Log-Analysis/blob/c64cc500665d9b762b053bc59e815af4a5776b2c/Failed%20Login%20chart.png)
-![image alt](https://github.com/sudarsan143/Splunk-SSH-Log-Analysis/blob/c64cc500665d9b762b053bc59e815af4a5776b2c/Detect%20Multiple%20Failed%20Authentication%20Attempts%20(Brute%20Force).png)
-![image alt](https://github.com/sudarsan143/Splunk-SSH-Log-Analysis/blob/c64cc500665d9b762b053bc59e815af4a5776b2c/Failure%20%E2%86%92%20Success%20pattern.png)
-![image alt](https://github.com/sudarsan143/Splunk-SSH-Log-Analysis/blob/c64cc500665d9b762b053bc59e815af4a5776b2c/suspicious%20unauthenticated%20SSH%20connection%20attempts..png)
-![image alt](https://github.com/sudarsan143/Splunk-SSH-Log-Analysis/blob/c64cc500665d9b762b053bc59e815af4a5776b2c/splunk%20ssh_logs%20dashboard.png)
-
+![image alt](https://github.com/sudarsan143/Splunk-HTTP-Log-Analysis/blob/aba12d3af67ecdf3bf0be6339ebe79e405406cb6/top%2010%20endpoints%20generating%20web%20traffic.png)
+![image alt](https://github.com/sudarsan143/Splunk-HTTP-Log-Analysis/blob/aba12d3af67ecdf3bf0be6339ebe79e405406cb6/server_errors.png)
+![image alt](https://github.com/sudarsan143/Splunk-HTTP-Log-Analysis/blob/aba12d3af67ecdf3bf0be6339ebe79e405406cb6/User-Agents%20associated%20with%20possible%20scripted%20attacks.png)
+![image alt](https://github.com/sudarsan143/Splunk-HTTP-Log-Analysis/blob/aba12d3af67ecdf3bf0be6339ebe79e405406cb6/large%20file%20transfers%20(greater%20than%20500%20KB).png)
+![image alt](https://github.com/sudarsan143/Splunk-HTTP-Log-Analysis/blob/aba12d3af67ecdf3bf0be6339ebe79e405406cb6/suspicious%20URIs%20accessed.png)
 
 ---
 
